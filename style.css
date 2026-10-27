@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* box model */
+/* font */
+p{
+    border: 10x solid black;
+    /* border-style: groove; */
+   box-shadow: 1px 1px 10px 3px red;
+    padding: 10px;
+    width: 400px;
+    margin: 40px auto;
+    height: 200px;
+    overflow-y: auto;
+
+    color: olivedrab;
+    font-size: 1.5rem;
+    font-weight: 200;
+    /* font-style: italic; */
+    font-family:"JetBrains Mono", monospace;
+
+    /* text-align: left; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-wrap: wrap;
+    text-shadow: 1px 1px 3px black;
+
+}
