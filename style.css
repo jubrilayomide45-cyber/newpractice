@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-/* box model */
-/* font */
+/* box model */ */
+font
 p{
     border: 10x solid black;
     /* border-style: groove; */
@@ -35,3 +35,46 @@ p{
     text-decoration: doublegit;
 
 }
+
+.box{
+    width: 50%;
+    height: 300px;
+    border: 1px solid;
+    margin: 30px auto;
+    background-color: #201313;
+    color: blue;
+}
+
+
+
+
+
+.box>.bnt{
+    padding: 13px;
+    border: 2px solid #201313;
+    border-radius: 25px;
+    font-family: 'JetBrains mono', monospace;
+    background-color: #ce2d2d;
+    color: white;
+}
+
+.box2{
+    /* background-image: ; */
+    font-size: 4rem;
+    text-align: center;
+    background-size: cover;
+    /* background-repeat: repeat; */
+    background-position: center;
+    background-image: linear-gradient(to right, blue, black, gold);
+    
+}
+
+.arise{
+    border: 1px solid;
+    font-size: 4rem;
+    text-align: center;
+    background-image: linear-gradient(to right, blue, black, gold) ;
+    background-clip: text;
+    color: transparent;
+}
+
